@@ -10,7 +10,7 @@ class Swapping{
 
         int number = 41;
         String binary = Integer.toBinaryString(number);
-        System.out.println("In integers: "+number);
+        System.out.println("In then intergrate integers: "+number);
         System.out.println("In binaries: "+binary);
 
         // from float to bits
