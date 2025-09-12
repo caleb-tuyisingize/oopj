@@ -17,7 +17,7 @@ public class NameDisplay {
 
 //		  OUTPUT
 		  
-		  System.out.println("\n---- Result -----");
+		  System.out.println("\n---- Result noting can stop a jet to holidays-----");
 		  System.out.println("Good morning "+firstname+" "+lastname +" You are welcome to the project" );
 		 
 		  
