@@ -125,6 +125,8 @@ public class GradeIn{
                 break;
             case 5:
                 System.out.println("Friday");
+                // BACKING TO BREAKING THE 5 AND 6th DAYS
+                break;
             case 6:
                 System.out.println("Saturday");
                 break;
