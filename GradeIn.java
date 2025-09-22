@@ -108,34 +108,52 @@ public class GradeIn{
 
 
         // USING SWITCH CASE BY SAYING THE DAY'S NAMES
-        System.out.println("Enter the day number (1-7): ");
-        int day = sc.nextInt();
-        switch(day){
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            case 3:
-                System.out.println("Wednesday");
-                break;
-            case 4:
-                System.out.println("Thursday");
-                break;
-            case 5:
-                System.out.println("Friday");
-                // BACKING TO BREAKING THE 5 AND 6th DAYS
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
-                break;
-            default:
-                System.out.println("Invalid day number! Please enter a number between 1 and 7.");
+        // System.out.println("Enter the day number (1-7): ");
+        // int day = sc.nextInt();
+        // switch(day){
+        //     case 1:
+        //         System.out.println("Monday");
+        //         break;
+        //     case 2:
+        //         System.out.println("Tuesday");
+        //         break;
+        //     case 3:
+        //         System.out.println("Wednesday");
+        //         break;
+        //     case 4:
+        //         System.out.println("Thursday");
+        //         break;
+        //     case 5:
+        //         System.out.println("Friday");
+        //         // BACKING TO BREAKING THE 5 AND 6th DAYS
+        //         break;
+        //     case 6:
+        //         System.out.println("Saturday");
+        //         break;
+        //     case 7:
+        //         System.out.println("Sunday");
+        //         break;
+        //     default:
+        //         System.out.println("Invalid day number! Please enter a number between 1 and 7.");
+        // }
+
+        // LOOPING STATEMENTS SPOONS OF SUGAR
+        /*
+        System.out.println("Enter the amount of sugar spoons you take: ");
+        int sugarSpoons = sc.nextInt();
+        for (int i = 1; i <= sugarSpoons; i++) {
+            System.out.println("Sugar spoon " + i + ": " + sugarSpoons);
+            if(i == sugarSpoons/2){
+                System.out.println("Halfway there!");
+            }else if(i == sugarSpoons){
+                System.out.println("You have taken all your sugar spoons.");
+            }
         }
-     
-   }
+        */
+
+    //    SIMPLE FOR
+         for(int i = 1; i <= 5; i++){
+              System.out.println("Iteration " + i);
+         }
+    }
 }
