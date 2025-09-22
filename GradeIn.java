@@ -152,8 +152,19 @@ public class GradeIn{
         */
 
     //    SIMPLE FOR
-         for(int i = 1; i <= 5; i++){
-              System.out.println("Iteration " + i);
+         for(int i = 5; i >= 1; i--){
+            System.out.println("Iteration " + i);
+            // if(i == 1){
+            //     System.out.println("One");
+            // }else if(i == 2){
+            //     System.out.println("Five");
+            // }else if(i == 3){
+            //     System.out.println("Three");
+            // }else if(i == 4){
+            //     System.out.println("Four");
+            // }else if(i == 5){
+            //     System.out.println("Five");
+            // }
          }
     }
 }
