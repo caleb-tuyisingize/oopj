@@ -1,8 +1,11 @@
 public class IncrementingThree {
     public static void main(String[] args) {
-        for (int number = 0; number <= 5; number++){
-           for(int num = 0; num <= 5; num++){
-            System.out.print("("+num+" ,"+ number+"),");
+        int counter = 0;
+        for (int number = 1; number <= 5; number++){
+           for(int num = 1; num <= 5; num++){
+            counter +=1;
+            System.out.printf("%2d ",counter);
+        
            }
             System.out.println(" ");
            
