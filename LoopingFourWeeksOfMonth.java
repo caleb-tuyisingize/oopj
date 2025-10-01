@@ -7,11 +7,11 @@ public class LoopingFourWeeksOfMonth {
             System.out.print("Week " + week + ": ");
             for (int day = 1; day <= 7; day++) {
                 counter += 1;
-                System.out.printf("%2d| ", counter);
+                System.out.printf("%3d| ", counter);
             }
             System.out.println(""); // Blank line between weeks
         }
-        System.out.println("===================================");
+        System.out.println("====== ======= ====== ====== ====== ======");
         System.out.println();
         }
     }
