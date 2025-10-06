@@ -7,7 +7,7 @@ public class Factorial {
         // Prompt user for input
         System.out.print("Enter a number to generate its Factorial: ");
         int number = scanner.nextInt();
-
+        
         // Generate multiplication table
         System.out.println("Factorial of " + number + ":");
         int fact = 1;
