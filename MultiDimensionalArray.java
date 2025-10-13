@@ -1,19 +1,19 @@
 public class MultiDimensionalArray {
     public static void main(String[] args) {
         // Declare and initialize a 2D array
-        int[][] matrix = new int[2][3];
-        matrix[0][0] = 10;
-        matrix[0][1] = 20;
-        matrix[0][2] = 30;
-        matrix[1][0] = 40;
-        matrix[1][1] = 50;
-        matrix[1][2] = 60;
+        int[][] matrix = {
+            {10, 20, 30},
+            {40, 50},
+            {60, 70, 80, 90}
+
+        };
 
         // Iterating through a 2D array
         System.out.println("Iterating through the 2D array:");
-      for(int[] row : matrix){
-        for(int col : row){
-            System.out.print("| " +col+" |");
+        // BY USING A FOR LOOP NOT FOR EACH
+      for(int row=0; row < matrix.length; row++){
+        for(int col = 0; col < matrix[row].length; col++){
+            System.out.print(matrix[row][col] + " ");
         }
             System.out.println("\n--- --- ---");
 
