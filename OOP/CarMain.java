@@ -12,11 +12,11 @@ class Car {
     void engineStop() {
         System.out.println("The Engine has stopped");
     }
-    // void displayCarInfo(){
-    //     System.out.println("Car Model: " + model);
-    //     System.out.println("Car Color: " + color);
-    //     System.out.println("Car Year: " + year+"\n");
-    // }
+    void displayCarInfo(){
+        System.out.println("Car Model: " + model);
+        System.out.println("Car Color: " + color);
+        System.out.println("Car Year: " + year+"\n");
+    }
     // void displayCarInfo(){
     //     System.out.println("I have a Car which is " + model +" with a Color of " + color+" and it is innitiated in Year of " + year+"\n");
     // }
@@ -42,5 +42,7 @@ public class CarMain {
 
         car1.engineStop();
         car2.engineStop();
+
+        car2.displayCarInfo();
     }
 }

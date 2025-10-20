@@ -19,7 +19,7 @@ public class Main {
         Student student1 = new Student();
         student1.name = "Alice";
         student1.age = 20;
-        student1.displayInfo(); 
+        student1.displayInfo();  
         System.out.println(student1);
         }    
 }
